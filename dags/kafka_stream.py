@@ -27,6 +27,7 @@ def stream_data():
             "alert": "Accident Reported",
             "severity": random.randint(1, 5)
         }
+        print(f"Sending event: {data}") 
         producer.send('live_accidents', value=data)
         time.sleep(0.5) # Simulate realtime
         
