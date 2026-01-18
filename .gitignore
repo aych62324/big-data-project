@@ -1,0 +1,5 @@
+postgres-db-volume/
+minio_data/
+logs/
+__pycache__/
+*.zip
